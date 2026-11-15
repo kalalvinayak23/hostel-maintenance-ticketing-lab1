@@ -44,4 +44,4 @@ All nine stories have acceptance criteria, estimates and an assignee: Vinayak Ka
 - **Refinement after Sprint 1:** Corrected ticket validation, history, Warden responsibilities and closure criteria; added escalation and access-control stories. These changes do not represent software delivery.
 - **Remaining backlog:** HMTS-4, HMTS-7, HMTS-8, HMTS-9 and HMTS-10 — 23 estimated story points. The epic remains In Progress.
 
-**Sources:** Lab 1 `Complete Requirements Table.docx` and `Use-Case Flow Specification.docx`; PES University Software Engineering lesson plan. Jira videos/tutorials are a prerequisite.
+**Sources:** Lab 1 `Complete Requirements Table.docx` and `Use-Case Flow Specification.docx`; 
