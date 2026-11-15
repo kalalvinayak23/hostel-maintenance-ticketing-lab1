@@ -5,41 +5,43 @@
 **Project:** Hostel Maintenance Ticketing System  
 **Jira board:** https://vinayakkalal861.atlassian.net/jira/software/projects/HMTS/boards/1
 
-This exercise simulates the Jira workflow. Done indicates completion of the simulation, not implementation of the application.
+This exercise simulates the Jira workflow. Done records completion of the practice workflow, not application implementation or testing.
 
 ## Product backlog
 
 **Epic:** [HMTS-1 — Hostel maintenance request management](https://vinayakkalal861.atlassian.net/browse/HMTS-1)
 
-| Issue | User story | Priority | Story points | Sprint | Status |
+| Issue | User story | Priority | Story points | Placement and status | Lab 1 requirement |
 |---|---|---|---:|---|---|
-| [HMTS-2](https://vinayakkalal861.atlassian.net/browse/HMTS-2) | Student submits a maintenance complaint | High | 3 | Sprint 1 | Done |
-| [HMTS-3](https://vinayakkalal861.atlassian.net/browse/HMTS-3) | Resident views complaint status | High | 3 | Sprint 1 | Done |
-| [HMTS-4](https://vinayakkalal861.atlassian.net/browse/HMTS-4) | Staff member receives assigned complaints | High | 5 | Backlog | To Do |
-| [HMTS-5](https://vinayakkalal861.atlassian.net/browse/HMTS-5) | Administrator assigns a complaint to staff | High | 5 | Sprint 1 | Done |
-| [HMTS-6](https://vinayakkalal861.atlassian.net/browse/HMTS-6) | Maintenance staff updates ticket progress | Medium | 3 | Sprint 1 | Done |
-| [HMTS-7](https://vinayakkalal861.atlassian.net/browse/HMTS-7) | Resident reviews resolved complaint | Medium | 3 | Backlog | To Do |
-| [HMTS-8](https://vinayakkalal861.atlassian.net/browse/HMTS-8) | Administrator monitors open and resolved complaints | Medium | 5 | Backlog | To Do |
+| [HMTS-2](https://vinayakkalal861.atlassian.net/browse/HMTS-2) | Resident submits a maintenance ticket | High | 3 | Sprint 1 · Done | FR-001, FR-002; UC-01 |
+| [HMTS-3](https://vinayakkalal861.atlassian.net/browse/HMTS-3) | Resident views ticket status and history | Medium | 3 | Sprint 1 · Done | FR-003 |
+| [HMTS-4](https://vinayakkalal861.atlassian.net/browse/HMTS-4) | Staff member views assigned maintenance tickets | High | 5 | Backlog · To Do | FR-004 (support) |
+| [HMTS-5](https://vinayakkalal861.atlassian.net/browse/HMTS-5) | Maintenance Warden assigns a ticket to staff | High | 5 | Sprint 1 · Done | FR-004 |
+| [HMTS-6](https://vinayakkalal861.atlassian.net/browse/HMTS-6) | Maintenance Warden updates ticket progress | Medium | 3 | Sprint 1 · Done | FR-003, FR-004, FR-005 |
+| [HMTS-7](https://vinayakkalal861.atlassian.net/browse/HMTS-7) | Resident confirms repair and closes a ticket | Medium | 3 | Backlog · To Do | FR-005 |
+| [HMTS-8](https://vinayakkalal861.atlassian.net/browse/HMTS-8) | Maintenance Warden monitors and prioritizes tickets | High | 5 | Backlog · To Do | FR-004 |
+| [HMTS-9](https://vinayakkalal861.atlassian.net/browse/HMTS-9) | Escalate overdue high-priority tickets | High | 5 | Backlog · To Do | NFR-001 |
+| [HMTS-10](https://vinayakkalal861.atlassian.net/browse/HMTS-10) | Enforce authentication and ticket access controls | High | 5 | Backlog · To Do | NFR-002 |
 
-Each Jira story contains its description and acceptance criteria and is assigned to Vinayak Kalal.
+All nine stories have acceptance criteria, estimates and an assignee: Vinayak Kalal. The backlog covers FR-001–FR-005 and NFR-001–NFR-002. Ticket states (Reported, Assigned, In Progress, Resolved, Closed) are distinct from the Jira exercise's workflow.
 
 ## Sprint 1
 
-- **Name:** HMTS Sprint 1
-- **Goal:** Plan complaint submission, status tracking, staff assignment and progress updates.
+- **Name:** HMTS Sprint 1.
+- **Goal:** Plan complaint submission, tracking and staff assignment, and demonstrate the Jira workflow.
 - **Started:** 15 November 2026, 10:45 PM IST.
 - **Planned end:** 22 November 2026, 10:45 PM IST.
 - **Closed:** 15 November 2026, 11:02 PM IST, after the accelerated simulation.
 - **Selected stories:** HMTS-2, HMTS-3, HMTS-5 and HMTS-6 — 14 estimated story points.
 - **Workflow:** To Do → In Progress → In Review → Done.
-- **Definition of Done:** Story description, acceptance criteria, priority, estimate and assignee checked; simulated workflow completed.
-- **Result:** All four selected stories reached Done. Sprint closed; transitions are recorded in Jira history.
+- **Definition of Done:** Planning record checked and simulated workflow completed.
+- **Result:** Four selected stories reached Done; Jira history records all transitions.
 
 ## Review and retrospective
 
-- **Review:** Completed the selected stories' simulated Jira workflow.
-- **What worked:** Clear acceptance criteria, estimates and recorded status changes.
-- **Improvement:** Plan staff assignment together with the staff member's assigned-complaint view.
-- **Remaining backlog:** HMTS-4, HMTS-7 and HMTS-8 — 13 story points. The epic remains In Progress.
+- **What worked:** Defined stories, acceptance criteria, estimates and recorded status changes.
+- **Improvement:** Check every Lab 1 requirement and related dependencies during backlog refinement.
+- **Refinement after Sprint 1:** Corrected ticket validation, history, Warden responsibilities and closure criteria; added escalation and access-control stories. These changes do not represent software delivery.
+- **Remaining backlog:** HMTS-4, HMTS-7, HMTS-8, HMTS-9 and HMTS-10 — 23 estimated story points. The epic remains In Progress.
 
-**Source:** PES University Software Engineering lesson plan. Jira videos/tutorials are a prerequisite.
+**Sources:** Lab 1 `Complete Requirements Table.docx` and `Use-Case Flow Specification.docx`; PES University Software Engineering lesson plan. Jira videos/tutorials are a prerequisite.
