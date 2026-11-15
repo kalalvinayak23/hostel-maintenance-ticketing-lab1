@@ -18,7 +18,7 @@ Epic: [HMTS-1](https://vinayakkalal861.atlassian.net/browse/HMTS-1) — Hostel m
 | [HMTS-4](https://vinayakkalal861.atlassian.net/browse/HMTS-4) | Staff member receives assigned complaints | High | 5 | Backlog |
 | [HMTS-5](https://vinayakkalal861.atlassian.net/browse/HMTS-5) | Administrator assigns a complaint to staff | High | 5 | Sprint 1 |
 | [HMTS-6](https://vinayakkalal861.atlassian.net/browse/HMTS-6) | Maintenance staff updates ticket progress | Medium | 3 | Sprint 1 |
-| [HMTS-7](https://vinayakkal861.atlassian.net/browse/HMTS-7) | Resident reviews resolved complaint | Medium | 3 | Backlog |
+| [HMTS-7](https://vinayakkalal861.atlassian.net/browse/HMTS-7) | Resident reviews resolved complaint | Medium | 3 | Backlog |
 | [HMTS-8](https://vinayakkalal861.atlassian.net/browse/HMTS-8) | Administrator monitors open and resolved complaints | Medium | 5 | Backlog |
 
 Each story includes a user story description, acceptance criteria, assignment to the student, and a story-point estimate.
